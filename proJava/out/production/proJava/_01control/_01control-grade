@@ -1,0 +1,77 @@
+/* _01control guideline */
+/* MPCS 51036, Fall 2016 */
+
+/* === Evaluation === */
+
+/* *** Review Exercises *** */
+
+/* R1.5   	      3/ 3 */
+/* R2.3               3/ 3 */
+/* R2.6               2/ 3
+
+B) c/ (17 + 18) / 2 = 17 (integer division (i.e., truncation))
+
+ */
+/* R2.10              2/ 3 
+
+You can fix the problem by using the System.printf(“.2%f”,dNumber); 
+
+*/ 
+/* R2.11              3/ 3 */
+/* R2.15   	      3/ 3 */
+/* R3.18              3/ 3 */
+/* R4.9               3/ 3 */
+/* R4.12              0/ 3 
+
+That is not pseudocode that is actual code. 
+
+*/ 
+/* R4.15              3/ 3 */
+/* _SUB-TOTAL_        25/30 */
+
+/* *** Programming Exercises *** */
+
+/* P1.10   	      7/ 7 */
+/* P2.17              5/ 7 
+
+You do not take into consideration for times that go past a day. For example: 
+
+2400 (First Time)
+2300 (Second Time) 
+Should produce: 
+23 hours 0 minutes 
+
+*/
+/* P3.14              7/ 7 */
+/* P3.16              7/ 7 */ 
+/* P3.18              6/ 7 
+
+            if (season.equals("Winter")); { season = "Spring"; }
+            if (season.equals("Spring")); { season = "Summer"; }
+            if (season.equals("Summer")); { season = "Fall"; }
+            if (season.equals("Fall")); { season = "Winter"; }
+
+These should be else ifs 
+
+
+*/
+/* P3.21   	      7/ 7 */
+/* P3.26              5/ 7 
+
+Efficiency: Using the while loops is not required. Break the digits into 100’s digit, 
+100’s digit, 10’s digit, and 1’s digit and from there you can easily check what to 
+print out. 
+
+*/
+/* P4.6               7/ 7 */
+/* P4.11              7/ 7 */ 
+/* P4.18              6/ 7 
+
+Documentation! 
+*/
+
+
+/* _TOTAL-SCORE_    89/100 */
+
+/* graded by Lamont */
+

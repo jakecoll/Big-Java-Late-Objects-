@@ -1,0 +1,75 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R12.1 OO Analysis and Design: List the steps in the process of object-oriented design that this chapter recommends for student use.
+Chapter suggests you spend time planning first
+1\ Gather and document program requirements
+2\ Use CRC cards to find classes, responsibilities, and collaborators.
+3\ Use UML diagrams to record class relationships.
+4\ Use javadoc comments to record behavior of classes.
+4\ after completing design, implement your classes.
+
+R12.2 OO Analysis and Design: Give a rule of thumb for how to find classes when designing a program.
+To discover new classes, look for nouns in the problem description.
+
+R12.3 OO Analysis and Design: Give a rule of thumb for how to find methods when designing a program.
+Look for verbs in the the class description.
+
+R12.8 Relationships: What relationship is appropriate between the following classes: aggregation, inheritance, or neither?
+
+a\ aggregation
+b\ inheritance
+c\ inheritance
+d\ neither
+e\ aggregation
+f\ inheritance
+g\ aggregation
+h\ aggregation
+
+R12.11 CRC Cards (no need to draw them, just create a text version of the CRC card and put answers in ReviewExercises)
+
+CRC Card
+Class: CashRegister
+Responsibility: store value / Collaborator: Coin
+
+R12.13 UML Diagram - Use the UML tool in IntelliJ. Indicate to the grader where this is located.
+
+See R12_13.uml file in _06design package
+
+R12.14 UML Diagram and CRC - Use the UML tool in IntelliJ. Indicate to the grader where this is located.
+
+See R12_14.uml file in _06design package for uml diagrams (may need to toggle dependences on.
+javadoc created a bunch of unnecessary files, but Country.html and CountryEvaluator.html should be in R12_14._06design.R12_14
+
+CRC:
+Class: CountryEvaluator
+Responsibility: Return largest Country by both area and population | Collaborator: Country
+
+R12.16 Identifying objects from problem description
+
+Classes: VendingMachine, Product, Coin, User
+
+R12.18 Identifying objects from problem description
+
+UML:
+Customer<>----Address
+Product<>----Address
+Invoice<>-----Customer
+Invoice<>-----Product
+
+R12.19 imports and fully qualified names
+
+rather than importing classes as such:
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+You can declare and initialize them using their full package locations to avoid using import, as such:
+
+java.util.Scanner in = new java.util.Scanner();
+java.util.ArrayList<String> strArrayOfStuff = new java.util.ArrayList<String>();
+
+
+
+

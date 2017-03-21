@@ -1,0 +1,34 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+
+R13.1 Terms
+
+a. Recursion: A recurisve computation solves a problem by using the solution to the same problem with simpler imputes
+b. Iteration: Repeating a process (looping) to solve a solution.
+c. Infinite recursion: A method that calls itself over and over with no end solution.
+d. Recursive helper method: a method that modifies the original problem so that a recursive solution can be implemented
+
+R13.2 Smallest value: Recursion
+
+In body of method call min function on an element of array and on the min of the rest of the array.
+
+R13.3 Sort array of numbers
+
+First check length of array and return if length is 0.
+Then find the min of the array recursively and pop it from array.
+Then return min element and recursive call on remainder of array.
+
+R13.6 Exponents recursively
+
+F(n) = x * F(n-1)
+
+R13.8 Factorial recursively
+
+F(n) = n * F(n-1)
+
+
+
+
+

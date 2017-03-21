@@ -1,0 +1,37 @@
+/* _05dice guideline */
+/* MPCS 51036, Fall 2016 */
+
+/* === Evaluation === */
+
+/* *** Review Exercises *** */
+
+/* R10.5   	      2/ 3 
+-1: java event doesn't necessarily involve GUI */
+/* R10.6              3/ 3 */
+/* R10.11             3/ 3 */
+/* R10.14             3/ 3 */ 
+/* R10.22             3/ 3 */
+/* R11.2   	      3/ 3 */
+/* R11.11             3/ 3 */
+/* R11.19             2/ 3 
+-1: mouse event responds to all movements of mouse */
+/* R11.20             3/ 3 */ 
+/* R11.21             3/ 3 */ 
+/* _SUB-TOTAL_        28/30 */
+
+/* *** Programming Exercises *** */
+
+/* P10.2   	     10/ 10 */
+/* P10.26            9/ 10 
+-1: cyan and blue are different colors! */
+/* P10.35            15/ 15 */
+/* P11.22            9/ 15 
+-2: doesn't draw a dot-2: doesn't draw lines-2: fourth click should start a new triangle */ 
+/* Pig Game          20/ 20 */
+/* _SUB-TOTAL_       63/70 */
+
+
+/* _TOTAL-SCORE_    91/100 */
+
+/* graded by Catherine Lee */
+

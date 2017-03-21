@@ -1,0 +1,62 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+
+R9.1 Superclass and subclass
+
+a. Class: Employee, Subclass: Manager
+b. Class: Student, Subclass: GraduateStudent
+c. Class: Person, Subclass: Student
+d. Class: Employee, Subclass: Professor
+e. Class: BankAccount, Subclass: CheckingAccount
+f. Class: Vehicle, Subclass: Car
+g. Class: Vehicle, Subclass: Minivan
+h. Class: Car, Subclass: Minivan
+i. Class: Vehicle, Subclass: Truck
+
+R9.2 superclass and subclass: Consider a program for managing inventory in a small appliance store.
+Why isn’t it useful to have a superclass SmallAppliance and subclasses Toaster, CarVacuum, TravelIron, and so on?
+
+This is an example of overusing inheritance on overly specific classes. Small appliances do not behave differently
+than regular appliances in inventories so Toasters, CarVacuums, etc... can be implemented with a single class Appliance
+with instance variables for name, count in inventory, and potentially size specifications.
+
+R9.4 SavingsAccount: Which methods does the SavingsAccount class in How To 9.1 inherit from its super- class?
+Which methods does it override? Which methods does it add?
+
+Inherits methods: deposit(),getBalance()
+Override methods: withdraw(), monthEnd()
+Adds method: setInterestRate()
+
+R9.6 Sandwich
+
+/a. & d. are legal
+
+R9.7 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located
+
+See R9_7_diagram.png in package _04interfaces
+
+R9.8 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located
+
+See R9_8_diagram.png in package _04interfaces
+
+R9.9 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located
+
+R9_9_diagram.png in package _04interfaces
+
+R9.10 Casting
+
+Casting an (int) is used to test a loss of precision (e.g. going from long to an int) while casting an object is
+used to test whether the object is truly in that object class so that it it is not it throws an exception.
+
+R9.11 instanceof operator
+
+a., c., & d.
+
+R9.14 Edible interface
+
+a. & c.
+
+
+

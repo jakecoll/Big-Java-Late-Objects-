@@ -1,0 +1,42 @@
+/* _02arrays guideline */
+/* MPCS 51036, Fall 2016 */
+
+/* === Evaluation === */
+
+/* *** Review Exercises *** */
+
+/* R5.6   	       3/ 3 */
+/* R5.8               3/ 3 */
+/* R5.14              3/ 3 */ 
+/* R5.10              2/ 3 
+-1: no expected output; no variable scope for ‘args’ in main method */
+/* R6.6               3/ 3 */ 
+/* R6.10              3/ 3 */
+/* R6.11   	       2/ 3 
+-1: did not explain what out of bounds error is */
+/* R6.21              2/ 3 
+-1: index variable should go till n-2 */
+/* R6.23              3/ 3 */
+/* R6.25              3/ 3 */ 
+/* _SUB-TOTAL_        27/30 */
+
+/* *** Programming Exercises *** */
+
+/* P5.8   	     7/ 7 */
+/* P5.20             7/ 7 */
+/* P5.25             7/ 7 */
+/* P6.12             7/ 7 */
+/* P6.23             7/ 7 */ 
+/* P6.28             7/ 7 */
+/* P7.2   	     7/ 7 */
+/* P7.17             7/ 7 */
+/* P8.1              7/ 7  */
+/* P8.4              5/ 7 
+-2: You need to test your address class inside the P8_4 class*/
+/* _SUB-TOTAL_       68/70 */
+
+
+/* _TOTAL-SCORE_    95/100 */
+
+/* graded by Catherine Lee */
+

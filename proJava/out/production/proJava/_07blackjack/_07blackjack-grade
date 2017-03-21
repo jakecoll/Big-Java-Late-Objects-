@@ -1,0 +1,36 @@
+/* _06design guideline */
+/* MPCS 51036, Fall 2016 */
+
+/* === Evaluation === */
+
+/* *** Review Exercises *** */
+
+/* R13.1   	      2/ 3 
+-1: recursive helper methods are recursive methods called by another method, generally a non-recursive method */
+/* R13.2   	      3/ 3 */
+/* R13.3   	      3/ 3 */
+/* R13.6   	      2/ 3 
+-1: base case undefined */
+/* R13.8   	      2/ 3 
+-1: base case undefined */
+
+
+/* _SUB-TOTAL_        12/15 */
+
+/* *** Programming Exercises *** */
+
+/* YodaSpeak   	      5/ 5 */
+/* YodaSpeakRecursive 5/ 5 */
+/* Blackjack          75/ 75 */
+
+
+/* _SUB-TOTAL_       85/85   */
+
+
+/* _LATE_PENALTY_    0 */ 
+
+
+/* _TOTAL-SCORE_    97/100 */
+
+/* graded by Catherine Lee */
+

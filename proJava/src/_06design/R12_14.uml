@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>_06design.R12_14</OriginalElement>
+  <nodes>
+    <node x="-227.0" y="-200.0">_06design.R12_14.CountryEvaluator</node>
+    <node x="-180.0" y="70.0">_06design.R12_14.Country</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="_06design.R12_14.CountryEvaluator" target="_06design.R12_14.Country">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="41.0" y="14.5" />
+  <SelectedNodes>
+    <node>_06design.R12_14.Country</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

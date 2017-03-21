@@ -1,0 +1,33 @@
+/* _06design guideline */
+/* MPCS 51036, Fall 2016 */
+
+/* === Evaluation === */
+
+/* *** Review Exercises *** */
+
+/* R12.1   	      3/ 3 */
+/* R12.2              3/ 3 */
+/* R12.3             3/ 3 */
+/* R12.8             2/ 3 
+g and h are both neither actually*/ 
+/* R12.11             3/ 3 */
+/* R12.13  	      3/ 3 */
+/* R12.14             3/ 3 */
+/* R12.16             3/ 3 */
+/* R12.18             2/ 3 
+expected an external UML diagram as well*/ 
+/* R12.19             2/ 3 
+Correct adjustments, though the explanation of what imports allow you to do is lacking detail*/ 
+/* _SUB-TOTAL_        27/30 */
+
+/* *** Programming Exercises *** */
+
+/* P12.6   	      35/ 35 */
+/* P12.8             35/ 35  */
+/* _SUB-TOTAL_       70/70   */
+
+
+/* _TOTAL-SCORE_    97/100 */
+
+/* graded by Varun Kaushal */
+

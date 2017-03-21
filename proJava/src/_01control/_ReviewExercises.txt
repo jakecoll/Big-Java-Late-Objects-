@@ -1,0 +1,79 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R1.5 The following are all benefits to using Java over machine code:
+1/ Java bytecode is platform independent and may be run on any system that has a JVM. This quality is known as portability.
+2/ Java JIT compilers can run efficient Java programs as fast or faster than machine code programs
+3/ Java is memory-managed. This reduces about 95% of runtime errors (mostly memory-related) as compared to unmanaged code.
+4/ Java was designed for networking and the Internet in mind; and it is generally safer than machine code
+
+R2.3 The converted mathematical expressions in Java are:
+1/ double s = s0 + (v0 * t) + (g * t * t / 2.0);
+2/ double g = 4 * Math.Pi * Math.Pi * ((a * a * a) / (p * p * (m1 + m2));
+3/ double fV = pV * Math.Pow(1 + (INT / 100), yrs);
+4/ double c = Math.sqrt((a * a) + (b * b) - (2 * a * b * Math.cos(y));
+
+R2.6
+a/ 17 / 10 + 17 % 10 = 8.7
+b/ 17 % 2 + 18 % 2 = 1
+c/ (17 + 18) / 2 = 17.5
+d/ (17 + 18) / 2 = 17.5
+e/ (int) (0.5 * (17 + 18)) = 18
+f/ (int) Math.round(0.5 * (17 + 18)) = 18
+
+R2.10 The code segment is wrong because:
+A floating-point rounding error causes the distortion. If you convert the penny denomiation to integers you can work around the problem.
+
+R2.11 What is the difference between 2, 2.0, '2', "2" and "2.0":
+a/ 2 is an int
+b/ 2.0 is a double
+c/ '2' is a char
+d/ "2" is a string
+e/ "2.0" is also a string
+
+R2.15 Psuedo-code for first and last digit of a number:
+01 func getFirstLastDigit(num):
+02      if num > 9:
+03          lastDigit = num % 10;
+04          firstDigit = num /= 10;
+05          return firstDigit, lastDigit
+06      else:
+07          lastDigit = firstDigit = num
+08           return firstDigit, lastDigit
+
+R3.18 Grading Pseudo-Code:
+01 func getLetterGrade(numGrade):
+02      if numGrade >= 90 && numGrade <= 100:
+03          return "A"
+04      if numGrade >= 80 && numGrade < 90:
+05          return "B"
+06      if numGrade >= 70 && numGrade < 80:
+07          return "C"
+08      if numGrade >= 60 && numGrade < 70:
+09          return "D"
+10      else:
+11          return "F"
+
+R4.9 What loops can you do in java and when to use them:
+1/ For loop: when you know where you start and end. Great for incremental iterations.
+2/ While loop: Use when loop doesn't fit a pattern. Good for booleans values.
+3/ Do-While loop: Executes loop first and then executes conditions. Good for input validation.
+
+R4.12 Pseudocode for static table:
+01 System.out.println("Celsius | Fahrenheit");
+02 System.out.println("--------+-----------");
+03 System.out.println("      0 +          32");
+04 System.out.println("     10 +          50");
+05 System.out.println("     20 +          69");
+06 System.out.println("  . . . +     .  .  .");
+07 System.out.println("    100 +         212");
+
+R4.15 for loop to while loop conversion:
+    int s = 0;
+    int i = 1;
+    while (i <= 10)
+    {
+        i++;
+        s = s + i;
+    }

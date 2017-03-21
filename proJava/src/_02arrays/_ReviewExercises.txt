@@ -1,0 +1,100 @@
+#########################################################################
+# Use this file to answer Review Exercises from the Big Java textbook
+#########################################################################
+
+R5.6 Parameters and return values.  The difference between an argument and a return value is that an argument is passed
+into a method, whereas a return value is the value returned from it.
+
+You can have n number of arguments, whereas you can only have one return value. By varying either the number and/or type of arguments,
+you change the method's signature, which means you may overload a method. Varying the return value only does not change the
+method's signature and therefore does not qualify the method for overloading.
+
+Since Java5, you can even specify a variable number of arguments aka varargs which looks something like this:
+ private String[] someMethod(int nGrade, String... strNickNames) {//implementation};
+Notice that the varargs parameter "String... strNickNames" must be listed last.  Calling this method would look something like this:
+ String[] strReturnValues = someMethod(99, "Jim", "Jamie", "James", "Jamey", "Jimmy", "Jimbo");
+
+
+R5.8 Pseudocode
+
+01 Procedure getPhoneNumberWithDigits(phoneNumWithLetters) //
+02
+03     phoneNumberWithDigits = "";
+04     for i = 1 to phoneNumWithLetters.Length
+05         CASE phoneNumWithLetters[i] OF
+06              A,B,C: phoneNumberWithDigits += 2;
+07              D,E,F: phoneNumberWithDigits += 3;
+08              G,H,I: phoneNumberWithDigits += 4;
+09              J,K,L: phoneNumberWithDigits += 5;
+10              M,N,O: phoneNumberWithDigits += 6;
+11              P,Q,R,S: phoneNumberWithDigits += 7;
+12              T,U,V: phoneNumberWithDigits += 8;
+13              W,X,Y,Z: phoneNumberWithDigits += 9;
+14          ELSE
+15              phoneNumberWithDigits += = phoneNumWithLetters[i]
+16
+17      RETURN phoneNumberWithDigits
+
+R5.10 Variable scope
+\local variable i of main method - method scope, only available in main method lines 5-7
+\local variable b of main method - method scope, only available in main method lines 5-7
+\parameter variable of f method - entire f method, lines 10-15
+\local variable n of f method - method scope, only available in f method lines 12-14
+\parameter variable a of g method - entire g method lines 17-26
+\local variable b of g method - method scope, only available in g method lines 19-25
+\result variable n in for loop of g method - scope limited to for-loop lines 20-24
+
+
+R5.14 Pass by value versus pass by reference
+The scope of the parameter variables a,b do not extend beyond the scope of the falseSwap method so to access
+their new values in a method call requires two int return values to be passed back. Also, Java passes variables by
+value so x,y need to be set '=' to the falseSwap method call.
+
+R6.6 Arrays, initialize and and out-of-bounds
+a\ array indices in java start counting at 0 so array will be out of range when i = 10.
+b\ arrays in java have a fixed length so you cannot initialize and array without fixing a length.
+
+R6.10 ArrayLists rules
+a\ have to use wrapper classes when declaring and initializing ArrayLists in java; for primitive type int, the wrapper class is Integer.
+b\ need wrapper class when initializing the ArrayList; Need "= new ArrayList<Integer>()"
+c\ Missing constructor () when initializing the ArrayList
+d\ There is nothing in ArrayList yets for no index at 4; Need to use .add() method to grow the size of the ArrayList before set() method can be used
+e\ ArrayList is not initialized.
+
+R6.11 Index values
+An index is essentially the slot number of elements in an array. The index must be >= 0 and < the length of the array.
+
+R6.21 Rotate elements of array pseudocode
+01 Procedure rotate-array(arr[1...n]) //let
+02      if 1 < n
+02          Let tempArr[1...n] be a new array
+03          for i = 1 to n-1 then
+04              tempArr[i] = arr[i+1]
+05          tempArr[n] = arr[1]
+06          Return tempArr
+07      Else
+08          Return arr
+
+R6.23 Binary insert algorithm
+You could use recursion to insert in place
+
+01 Procedure binary-insert(arr[p...r],val) //val is value to be inserted
+02      q = (r-p)//2                  // let '//' represent floor division
+03
+04      if val == arr[q]
+05          exchange arr[q] with val       //assume exchange shifts array to the right
+06      else if val > arr[q] && val =< arr[q+1]
+07          exchange arr[q+1] with val
+08      else if val < arr[q] && val >= arr[q-1]
+09          exchange arr[q] with val
+10      else if val < arr[q-1]
+11          binary-insert(arr[p...q-1])
+12      else if val > arr[q+1]
+13          binary-insert(arr[q+1...r])
+
+R6.25 References to arrays
+The method uses void so it tells the compiler their is not return value. Consequently, the caller of the method cannot reference
+the parameter variable values once it has been filled with random numbers. The method should return double[] instead of declaring
+void.
+
+

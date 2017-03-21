@@ -1,0 +1,38 @@
+/* _04interfaces guideline */
+/* MPCS 51036, Fall 2016 */
+
+/* === Evaluation === */
+
+/* *** Review Exercises *** */
+
+/* R9.1   	      3/ 3 */
+/* R9.2               3/ 3 */
+/* R9.4               3/ 3 */
+/* R9.6               3/ 3 */ 
+/* R9.7               3/ 3 */
+/* R9.8   	      3/ 3 */
+/* R9.9               3/ 3 */
+/* R9.10              2/ 3 
+-1: casting doesn't necessarily imply that you are testing the validity of something */
+/* R9.11              1.5/ 3 
+-1.5: (b) is true, (c) is false, (e) is true */ 
+/* R9.14              2.5/ 3 
+-0.5: (f) is legal although sometimes it may cause run-time error */ 
+/* _SUB-TOTAL_        27/30 */
+
+/* *** Programming Exercises *** */
+
+/* P9.8   	     10/ 10 */
+/* P9.10             10/ 10 */
+/* P9.13             10/ 10 */
+/* P9.14             10/ 10 */ 
+/* P9.16             15/ 15 */
+/* P9.23   	     6/ 15 
+-2: main method implementation doesn't support testing of all methods-2: provide more comment-5: Daily and Monthly class should override occursOn method */
+/* _SUB-TOTAL_       61/70 */
+
+
+/* _TOTAL-SCORE_    88/100 */
+
+/* graded by Catherine Lee */
+

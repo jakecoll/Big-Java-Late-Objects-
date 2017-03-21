@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>_06design.R12_13</OriginalElement>
+  <nodes>
+    <node x="14.0" y="-23.0">_06design.R12_13.Quiz</node>
+    <node x="0.0" y="79.0">_06design.R12_13.Question</node>
+    <node x="-20.0" y="181.0">_06design.R12_13.ChoiceQuestion</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="_06design.R12_13.Question" target="_06design.R12_13.Quiz">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="_06design.R12_13.Question" target="_06design.R12_13.ChoiceQuestion">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="66.0" y="209.5" />
+  <SelectedNodes>
+    <node>_06design.R12_13.Quiz</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
